@@ -1,0 +1,22 @@
+[package]
+name = "hephaestus"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Hephaestus desktop application"
+default-run = "hephaestus"
+
+[lints]
+workspace = true
+
+[[bin]]
+name = "hephaestus"
+path = "src/main.rs"
+
+[dependencies]
+hephaestus-ui = { workspace = true }
+hephaestus-agent-api = { workspace = true }
+hephaestus-project = { workspace = true }
+eframe = { workspace = true }
+egui = { workspace = true }
+log = { workspace = true }

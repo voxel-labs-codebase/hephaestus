@@ -1,0 +1,16 @@
+[package]
+name = "hephaestus-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Hephaestus unified design database: components, libraries, schematic sheets and PCB objects (no UI dependencies)"
+
+[lints]
+workspace = true
+
+[dependencies]
+hephaestus-geometry = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+sha2 = { workspace = true }
+thiserror = { workspace = true }

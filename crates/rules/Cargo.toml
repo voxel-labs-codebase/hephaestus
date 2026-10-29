@@ -1,0 +1,18 @@
+[package]
+name = "hephaestus-rules"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Hephaestus design validation: electrical rule check (ERC) and design rule check (DRC)"
+
+[lints]
+workspace = true
+
+[dependencies]
+hephaestus-core = { workspace = true }
+hephaestus-connectivity = { workspace = true }
+serde = { workspace = true }
+
+[dev-dependencies]
+hephaestus-libraries = { workspace = true }
+hephaestus-commands = { workspace = true }

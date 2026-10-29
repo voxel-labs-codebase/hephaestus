@@ -1,0 +1,60 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+default-members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+rust-version = "1.90"
+
+[workspace.dependencies]
+# internal
+hephaestus-geometry = { path = "crates/geometry" }
+hephaestus-core = { path = "crates/core" }
+hephaestus-libraries = { path = "crates/libraries" }
+hephaestus-connectivity = { path = "crates/connectivity" }
+hephaestus-rules = { path = "crates/rules" }
+hephaestus-commands = { path = "crates/commands" }
+hephaestus-project = { path = "crates/project" }
+hephaestus-export = { path = "crates/export" }
+hephaestus-agent-api = { path = "crates/agent-api" }
+hephaestus-canvas = { path = "crates/canvas" }
+hephaestus-ui = { path = "crates/ui" }
+
+# foundation
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+thiserror = "2"
+sha2 = "0.10"
+log = "0.4"
+
+# ui — egui 0.36 matches Vector Craft and craft-ui (docking, tabs, icon buttons).
+egui = "0.36"
+eframe = { version = "0.36", default-features = false, features = ["wgpu", "wayland", "x11", "default_fonts", "persistence", "accesskit"] }
+# Shared Craft-suite egui components (MIT OR Apache-2.0). Same revision Vector Craft pins.
+craft-ui = { git = "https://github.com/storytold/craft-libs", rev = "5c874d51eeb3de70e735c8ce87a59a7dedd47675", features = ["serde"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
+rfd = "0.17"
+
+[workspace.lints.rust]
+unsafe_code = "deny"
+
+[workspace.lints.clippy]
+dbg_macro = "warn"
+# Hephaestus must not lose a user's design to a crash: shipped code returns Result/Option.
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+todo = "deny"
+unimplemented = "deny"
+
+[profile.dev.package."*"]
+opt-level = 2
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+lto = "thin"

@@ -1,0 +1,78 @@
+{
+  "format": "hephaestus-components",
+  "version": 2,
+  "components": [
+    {
+      "id": 2,
+      "designator": "U1",
+      "value": "NE555",
+      "part": "NE555",
+      "footprint": "SOIC-8",
+      "parameters": {}
+    },
+    {
+      "id": 4,
+      "designator": "R1",
+      "value": "10k",
+      "part": "RES_10k_0603",
+      "footprint": "0603",
+      "parameters": {}
+    },
+    {
+      "id": 6,
+      "designator": "R2",
+      "value": "47k",
+      "part": "RES_47k_0603",
+      "footprint": "0603",
+      "parameters": {}
+    },
+    {
+      "id": 8,
+      "designator": "C1",
+      "value": "10uF",
+      "part": "CAP_10uF_0603",
+      "footprint": "0603",
+      "parameters": {}
+    },
+    {
+      "id": 10,
+      "designator": "C2",
+      "value": "10nF",
+      "part": "CAP_10nF_0603",
+      "footprint": "0603",
+      "parameters": {}
+    },
+    {
+      "id": 12,
+      "designator": "R3",
+      "value": "330R",
+      "part": "RES_330R_0603",
+      "footprint": "0603",
+      "parameters": {}
+    },
+    {
+      "id": 14,
+      "designator": "D1",
+      "value": "Red",
+      "part": "LED_Red_LED-0603",
+      "footprint": "LED-0603",
+      "parameters": {}
+    },
+    {
+      "id": 16,
+      "designator": "C3",
+      "value": "100nF",
+      "part": "CAP_100nF_0603",
+      "footprint": "0603",
+      "parameters": {}
+    },
+    {
+      "id": 18,
+      "designator": "J1",
+      "value": "PWR",
+      "part": "HDR1X2_PWR_HDR-1x2",
+      "footprint": "HDR-1x2",
+      "parameters": {}
+    }
+  ]
+}

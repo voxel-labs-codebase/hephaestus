@@ -1,0 +1,15 @@
+{
+  "format": "hephaestus-project",
+  "version": 2,
+  "name": "LED_Flasher",
+  "next_id": 67,
+  "components": "components.json",
+  "library": "library",
+  "board": "board.pcbdoc.json",
+  "sheets": [
+    {
+      "id": 1,
+      "file": "sheets/Timer.schdoc.json"
+    }
+  ]
+}

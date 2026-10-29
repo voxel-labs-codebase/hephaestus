@@ -1,0 +1,104 @@
+{
+  "format": "hephaestus-symbol",
+  "hash": "sha256:6b12abdeb93be3a9c66b6f2fa60cf6ce34e46d940fc086f01c12be80825461aa",
+  "symbol": {
+    "description": "Non-polarized capacitor",
+    "designator_position": {
+      "x": -2540000,
+      "y": 2286000
+    },
+    "graphics": [
+      {
+        "points": [
+          {
+            "x": -2540000,
+            "y": 0
+          },
+          {
+            "x": -508000,
+            "y": 0
+          }
+        ],
+        "type": "Line",
+        "width": 0
+      },
+      {
+        "points": [
+          {
+            "x": 508000,
+            "y": 0
+          },
+          {
+            "x": 2540000,
+            "y": 0
+          }
+        ],
+        "type": "Line",
+        "width": 0
+      },
+      {
+        "points": [
+          {
+            "x": -508000,
+            "y": -2032000
+          },
+          {
+            "x": -508000,
+            "y": 2032000
+          }
+        ],
+        "type": "Line",
+        "width": 254000
+      },
+      {
+        "points": [
+          {
+            "x": 508000,
+            "y": -2032000
+          },
+          {
+            "x": 508000,
+            "y": 2032000
+          }
+        ],
+        "type": "Line",
+        "width": 254000
+      }
+    ],
+    "hide_pin_names": true,
+    "name": "Capacitor",
+    "pins": [
+      {
+        "direction": "Left",
+        "length": 2540000,
+        "name": "1",
+        "number": "1",
+        "pin_type": "Passive",
+        "position": {
+          "x": -5080000,
+          "y": 0
+        },
+        "show_name": false,
+        "show_number": false
+      },
+      {
+        "direction": "Right",
+        "length": 2540000,
+        "name": "2",
+        "number": "2",
+        "pin_type": "Passive",
+        "position": {
+          "x": 5080000,
+          "y": 0
+        },
+        "show_name": false,
+        "show_number": false
+      }
+    ],
+    "value_position": {
+      "x": -2540000,
+      "y": -4318000
+    }
+  },
+  "version": 2
+}

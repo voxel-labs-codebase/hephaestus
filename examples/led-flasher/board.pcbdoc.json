@@ -1,0 +1,323 @@
+{
+  "format": "hephaestus-board",
+  "version": 2,
+  "board": {
+    "outline": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 50800000,
+        "y": 0
+      },
+      {
+        "x": 50800000,
+        "y": 38100000
+      },
+      {
+        "x": 0,
+        "y": 38100000
+      }
+    ],
+    "origin": {
+      "x": 0,
+      "y": 0
+    },
+    "stack": {
+      "layers": [
+        {
+          "layer": "Top Layer",
+          "name": "Top Layer",
+          "copper_thickness": 35000,
+          "dielectric": {
+            "material": "FR-4 Prepreg",
+            "thickness": 1600000,
+            "constant": 4.2
+          }
+        },
+        {
+          "layer": "Bottom Layer",
+          "name": "Bottom Layer",
+          "copper_thickness": 35000,
+          "dielectric": null
+        }
+      ]
+    },
+    "rules": {
+      "clearance": 152400,
+      "min_track_width": 152400,
+      "preferred_track_width": 254000,
+      "max_track_width": 5080000,
+      "min_via_diameter": 508000,
+      "min_via_drill": 254000,
+      "preferred_via_diameter": 711200,
+      "preferred_via_drill": 355600,
+      "min_annular_ring": 127000,
+      "board_edge_clearance": 254000,
+      "min_hole_size": 254000,
+      "max_hole_size": 6350000,
+      "net_classes": []
+    }
+  },
+  "objects": [
+    {
+      "id": 51,
+      "type": "Footprint",
+      "component": 2,
+      "footprint": "SOIC-8",
+      "position": {
+        "x": 25400000,
+        "y": 19050000
+      },
+      "rotation": 0.0,
+      "side": "Top",
+      "locked": false,
+      "pad_nets": {
+        "1": "GND",
+        "2": "NetC1_2",
+        "3": "OUT",
+        "4": "VCC",
+        "5": "NetC2_2",
+        "6": "NetC1_2",
+        "7": "NetR1_1",
+        "8": "VCC"
+      }
+    },
+    {
+      "id": 52,
+      "type": "Footprint",
+      "component": 4,
+      "footprint": "0603",
+      "position": {
+        "x": 36830000,
+        "y": 27940000
+      },
+      "rotation": 90.0,
+      "side": "Top",
+      "locked": false,
+      "pad_nets": {
+        "1": "NetR1_1",
+        "2": "VCC"
+      }
+    },
+    {
+      "id": 53,
+      "type": "Footprint",
+      "component": 6,
+      "footprint": "0603",
+      "position": {
+        "x": 36830000,
+        "y": 19050000
+      },
+      "rotation": 90.0,
+      "side": "Top",
+      "locked": false,
+      "pad_nets": {
+        "1": "NetC1_2",
+        "2": "NetR1_1"
+      }
+    },
+    {
+      "id": 54,
+      "type": "Footprint",
+      "component": 8,
+      "footprint": "0603",
+      "position": {
+        "x": 36830000,
+        "y": 8890000
+      },
+      "rotation": 90.0,
+      "side": "Top",
+      "locked": false,
+      "pad_nets": {
+        "1": "GND",
+        "2": "NetC1_2"
+      }
+    },
+    {
+      "id": 55,
+      "type": "Footprint",
+      "component": 10,
+      "footprint": "0603",
+      "position": {
+        "x": 15240000,
+        "y": 11430000
+      },
+      "rotation": 90.0,
+      "side": "Top",
+      "locked": false,
+      "pad_nets": {
+        "1": "GND",
+        "2": "NetC2_2"
+      }
+    },
+    {
+      "id": 56,
+      "type": "Footprint",
+      "component": 12,
+      "footprint": "0603",
+      "position": {
+        "x": 44450000,
+        "y": 29210000
+      },
+      "rotation": 90.0,
+      "side": "Top",
+      "locked": false,
+      "pad_nets": {
+        "1": "OUT",
+        "2": "NetD1_2"
+      }
+    },
+    {
+      "id": 57,
+      "type": "Footprint",
+      "component": 14,
+      "footprint": "LED-0603",
+      "position": {
+        "x": 44450000,
+        "y": 16510000
+      },
+      "rotation": 90.0,
+      "side": "Top",
+      "locked": false,
+      "pad_nets": {
+        "1": "GND",
+        "2": "NetD1_2"
+      }
+    },
+    {
+      "id": 58,
+      "type": "Footprint",
+      "component": 16,
+      "footprint": "0603",
+      "position": {
+        "x": 16510000,
+        "y": 29210000
+      },
+      "rotation": 0.0,
+      "side": "Top",
+      "locked": false,
+      "pad_nets": {
+        "1": "GND",
+        "2": "VCC"
+      }
+    },
+    {
+      "id": 59,
+      "type": "Footprint",
+      "component": 18,
+      "footprint": "HDR-1x2",
+      "position": {
+        "x": 6350000,
+        "y": 19050000
+      },
+      "rotation": 0.0,
+      "side": "Top",
+      "locked": false,
+      "pad_nets": {
+        "1": "VCC",
+        "2": "GND"
+      }
+    },
+    {
+      "id": 60,
+      "type": "Track",
+      "start": {
+        "x": 28100000,
+        "y": 19685000
+      },
+      "end": {
+        "x": 28265000,
+        "y": 19850000
+      },
+      "width": 254000,
+      "layer": "Top Layer",
+      "net": "NetR1_1"
+    },
+    {
+      "id": 61,
+      "type": "Track",
+      "start": {
+        "x": 28265000,
+        "y": 19850000
+      },
+      "end": {
+        "x": 36830000,
+        "y": 19850000
+      },
+      "width": 254000,
+      "layer": "Top Layer",
+      "net": "NetR1_1"
+    },
+    {
+      "id": 62,
+      "type": "Track",
+      "start": {
+        "x": 36830000,
+        "y": 19850000
+      },
+      "end": {
+        "x": 36830000,
+        "y": 27140000
+      },
+      "width": 254000,
+      "layer": "Top Layer",
+      "net": "NetR1_1"
+    },
+    {
+      "id": 63,
+      "type": "Track",
+      "start": {
+        "x": 28100000,
+        "y": 17145000
+      },
+      "end": {
+        "x": 23185000,
+        "y": 12230000
+      },
+      "width": 254000,
+      "layer": "Top Layer",
+      "net": "NetC2_2"
+    },
+    {
+      "id": 64,
+      "type": "Track",
+      "start": {
+        "x": 23185000,
+        "y": 12230000
+      },
+      "end": {
+        "x": 15240000,
+        "y": 12230000
+      },
+      "width": 254000,
+      "layer": "Top Layer",
+      "net": "NetC2_2"
+    },
+    {
+      "id": 65,
+      "type": "Text",
+      "layer": "Top Overlay",
+      "position": {
+        "x": 5080000,
+        "y": 35052000
+      },
+      "text": "LED FLASHER",
+      "height": 1270000,
+      "rotation": 0.0
+    },
+    {
+      "id": 66,
+      "type": "Text",
+      "layer": "Top Overlay",
+      "position": {
+        "x": 33020000,
+        "y": 35052000
+      },
+      "text": "REV A",
+      "height": 1270000,
+      "rotation": 0.0
+    }
+  ]
+}

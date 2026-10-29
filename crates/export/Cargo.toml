@@ -1,0 +1,17 @@
+[package]
+name = "hephaestus-export"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Hephaestus manufacturing outputs: Gerber X2, Excellon drill, BOM and pick-and-place"
+
+[lints]
+workspace = true
+
+[dependencies]
+hephaestus-core = { workspace = true }
+serde = { workspace = true }
+
+[dev-dependencies]
+hephaestus-libraries = { workspace = true }
+hephaestus-commands = { workspace = true }

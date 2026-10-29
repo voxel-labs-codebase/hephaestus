@@ -1,0 +1,21 @@
+[package]
+name = "hephaestus-agent-api"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Hephaestus agent-facing operations: a session over the EDA core, the tool catalog, and the local JSON-lines control protocol"
+
+[lints]
+workspace = true
+
+[dependencies]
+hephaestus-core = { workspace = true }
+hephaestus-libraries = { workspace = true }
+hephaestus-connectivity = { workspace = true }
+hephaestus-commands = { workspace = true }
+hephaestus-rules = { workspace = true }
+hephaestus-project = { workspace = true }
+hephaestus-export = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+log = { workspace = true }

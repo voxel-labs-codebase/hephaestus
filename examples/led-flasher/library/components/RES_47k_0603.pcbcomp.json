@@ -1,0 +1,24 @@
+{
+  "alt_footprints": [],
+  "category": "Passives/Resistors",
+  "default_value": "47k",
+  "description": "Resistor, thick film",
+  "designator_prefix": "R",
+  "family": "RES",
+  "footprint": "sha256:2fce197965765962db4a62d800a0e032fcd3dd10af866d52c2d8d4a2aa295f11",
+  "format": "hephaestus-component",
+  "hash": "sha256:f263e728f56ee154b2292cb61d4087781a677efdd40159dd5f1d1940f89a0fdc",
+  "kind": "generic",
+  "name": "RES_47k_0603",
+  "origin": {
+    "hash": "sha256:222e7a4caf2934567e3343154b055eb430e63f7c6776d6902934684b320733fc",
+    "item": "RES",
+    "source": "Hephaestus Basic",
+    "version": "2"
+  },
+  "parameters": {},
+  "pin_map": {},
+  "revision": 1,
+  "symbol": "sha256:6458a7a6a23655112d61b729c9da9a32d09e07e144f07f53888aa91dae873e0f",
+  "version": 2
+}

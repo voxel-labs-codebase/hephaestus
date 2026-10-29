@@ -1,0 +1,19 @@
+[package]
+name = "hephaestus-mcp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Hephaestus MCP server (stdio): exposes the agent API to Claude Code, Codex and other MCP clients"
+
+[lints]
+workspace = true
+
+[[bin]]
+name = "hephaestus-mcp"
+path = "src/main.rs"
+
+[dependencies]
+hephaestus-agent-api = { workspace = true }
+rmcp = { version = "3.7", features = ["server", "transport-io"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "io-std", "sync"] }
+serde_json = { workspace = true }

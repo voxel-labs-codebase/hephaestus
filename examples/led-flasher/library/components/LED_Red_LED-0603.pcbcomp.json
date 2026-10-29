@@ -1,0 +1,24 @@
+{
+  "alt_footprints": [],
+  "category": "Discretes/LEDs",
+  "default_value": "Red",
+  "description": "Light-emitting diode",
+  "designator_prefix": "D",
+  "family": "LED",
+  "footprint": "sha256:90583863523f345ae9948e342ffb27034d9e685698c6f29d053f20963fce2d70",
+  "format": "hephaestus-component",
+  "hash": "sha256:a76a253a857a0596502164abbcb29a554b1168a139b8823b2e13222f8b041662",
+  "kind": "generic",
+  "name": "LED_Red_LED-0603",
+  "origin": {
+    "hash": "sha256:4ce982d1fba502020401c424bad9bdd4620ab15644a8b4e74c65d82cd1fbdba6",
+    "item": "LED",
+    "source": "Hephaestus Basic",
+    "version": "2"
+  },
+  "parameters": {},
+  "pin_map": {},
+  "revision": 1,
+  "symbol": "sha256:3063e37259aafa3c3f38147d9061dc95b613db72ee0b77b480aefe3362bd330e",
+  "version": 2
+}

@@ -1,0 +1,24 @@
+{
+  "alt_footprints": [],
+  "category": "Passives/Capacitors",
+  "default_value": "10nF",
+  "description": "Capacitor, ceramic MLCC",
+  "designator_prefix": "C",
+  "family": "CAP",
+  "footprint": "sha256:2fce197965765962db4a62d800a0e032fcd3dd10af866d52c2d8d4a2aa295f11",
+  "format": "hephaestus-component",
+  "hash": "sha256:0f51309056cd44968a5421ec4ebe531a2fc4add61b9414413f62eed07c86c3c5",
+  "kind": "generic",
+  "name": "CAP_10nF_0603",
+  "origin": {
+    "hash": "sha256:0b702e04203cde4f370e33d30b11e6d1d5fc72bacf0a3421d4a56fcb6e3a7ed7",
+    "item": "CAP",
+    "source": "Hephaestus Basic",
+    "version": "2"
+  },
+  "parameters": {},
+  "pin_map": {},
+  "revision": 1,
+  "symbol": "sha256:6b12abdeb93be3a9c66b6f2fa60cf6ce34e46d940fc086f01c12be80825461aa",
+  "version": 2
+}

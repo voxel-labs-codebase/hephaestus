@@ -1,0 +1,24 @@
+{
+  "alt_footprints": [],
+  "category": "Connectors/Headers",
+  "default_value": "PWR",
+  "description": "Pin header, 1x2, 2.54 mm",
+  "designator_prefix": "J",
+  "family": "HDR1X2",
+  "footprint": "sha256:e6900d12c8688cf82e8e6d8efe4635590ee3caa074cf38b010be5e5b0aad0565",
+  "format": "hephaestus-component",
+  "hash": "sha256:0af2f1eb112fe40136d95471df861a51280183c4a14542a6ee8464712359f03a",
+  "kind": "generic",
+  "name": "HDR1X2_PWR_HDR-1x2",
+  "origin": {
+    "hash": "sha256:e6711b55e85f48b9a5f0f9b65c12eff33e85748c35e5c6742bb55e885de58b48",
+    "item": "HDR1X2",
+    "source": "Hephaestus Basic",
+    "version": "2"
+  },
+  "parameters": {},
+  "pin_map": {},
+  "revision": 1,
+  "symbol": "sha256:74ec2072496595aa043a9840f6d07ec1d5662ddbd783ddf4dab2c3ee5f689076",
+  "version": 2
+}

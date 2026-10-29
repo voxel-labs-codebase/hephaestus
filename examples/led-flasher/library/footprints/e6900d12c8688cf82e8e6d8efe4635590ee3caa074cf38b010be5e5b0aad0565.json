@@ -1,0 +1,122 @@
+{
+  "footprint": {
+    "courtyard": {
+      "max": {
+        "x": 1520000,
+        "y": 2790000
+      },
+      "min": {
+        "x": -1520000,
+        "y": -2790000
+      }
+    },
+    "description": "1x2 pin header, 2.54 mm pitch",
+    "graphics": [
+      {
+        "layer": "Top Overlay",
+        "shape": {
+          "points": [
+            {
+              "x": -1270000,
+              "y": 2540000
+            },
+            {
+              "x": 1270000,
+              "y": 2540000
+            },
+            {
+              "x": 1270000,
+              "y": -2540000
+            },
+            {
+              "x": -1270000,
+              "y": -2540000
+            },
+            {
+              "x": -1270000,
+              "y": 2540000
+            }
+          ],
+          "type": "Line",
+          "width": 150000
+        }
+      },
+      {
+        "layer": "Mechanical 13",
+        "shape": {
+          "filled": false,
+          "max": {
+            "x": 1270000,
+            "y": 2540000
+          },
+          "min": {
+            "x": -1270000,
+            "y": -2540000
+          },
+          "type": "Rect",
+          "width": 100000
+        }
+      },
+      {
+        "layer": "Mechanical 15",
+        "shape": {
+          "filled": false,
+          "max": {
+            "x": 1520000,
+            "y": 2790000
+          },
+          "min": {
+            "x": -1520000,
+            "y": -2790000
+          },
+          "type": "Rect",
+          "width": 50000
+        }
+      }
+    ],
+    "model": {
+      "height": 8500000,
+      "source": "generated:box 2.54x5.08x8.5mm"
+    },
+    "name": "HDR-1x2",
+    "pads": [
+      {
+        "height": 1700000,
+        "kind": {
+          "drill": 1000000,
+          "type": "ThroughHole"
+        },
+        "number": "1",
+        "position": {
+          "x": 0,
+          "y": 1270000
+        },
+        "rotation": 0.0,
+        "shape": {
+          "type": "Rect"
+        },
+        "width": 1700000
+      },
+      {
+        "height": 1700000,
+        "kind": {
+          "drill": 1000000,
+          "type": "ThroughHole"
+        },
+        "number": "2",
+        "position": {
+          "x": 0,
+          "y": -1270000
+        },
+        "rotation": 0.0,
+        "shape": {
+          "type": "Round"
+        },
+        "width": 1700000
+      }
+    ]
+  },
+  "format": "hephaestus-footprint",
+  "hash": "sha256:e6900d12c8688cf82e8e6d8efe4635590ee3caa074cf38b010be5e5b0aad0565",
+  "version": 2
+}

@@ -1,0 +1,608 @@
+{
+  "format": "hephaestus-sheet",
+  "version": 2,
+  "sheet": {
+    "id": 1,
+    "name": "Timer",
+    "size": "A4",
+    "orientation": "Landscape",
+    "title_block": "Standard",
+    "show_zones": true,
+    "title": "555 LED Flasher",
+    "revision": "A",
+    "order": 0
+  },
+  "objects": [
+    {
+      "id": 3,
+      "sheet": 1,
+      "type": "Symbol",
+      "component": 2,
+      "position": {
+        "x": 127000000,
+        "y": 101600000
+      },
+      "rotation": 0.0,
+      "mirror": false,
+      "designator_offset": null,
+      "value_offset": null
+    },
+    {
+      "id": 5,
+      "sheet": 1,
+      "type": "Symbol",
+      "component": 4,
+      "position": {
+        "x": 160020000,
+        "y": 121920000
+      },
+      "rotation": 90.0,
+      "mirror": false,
+      "designator_offset": null,
+      "value_offset": null
+    },
+    {
+      "id": 7,
+      "sheet": 1,
+      "type": "Symbol",
+      "component": 6,
+      "position": {
+        "x": 160020000,
+        "y": 91440000
+      },
+      "rotation": 90.0,
+      "mirror": false,
+      "designator_offset": null,
+      "value_offset": null
+    },
+    {
+      "id": 9,
+      "sheet": 1,
+      "type": "Symbol",
+      "component": 8,
+      "position": {
+        "x": 101600000,
+        "y": 71120000
+      },
+      "rotation": 90.0,
+      "mirror": false,
+      "designator_offset": null,
+      "value_offset": null
+    },
+    {
+      "id": 11,
+      "sheet": 1,
+      "type": "Symbol",
+      "component": 10,
+      "position": {
+        "x": 91440000,
+        "y": 96520000
+      },
+      "rotation": 90.0,
+      "mirror": false,
+      "designator_offset": null,
+      "value_offset": null
+    },
+    {
+      "id": 13,
+      "sheet": 1,
+      "type": "Symbol",
+      "component": 12,
+      "position": {
+        "x": 187960000,
+        "y": 104140000
+      },
+      "rotation": 0.0,
+      "mirror": false,
+      "designator_offset": null,
+      "value_offset": null
+    },
+    {
+      "id": 15,
+      "sheet": 1,
+      "type": "Symbol",
+      "component": 14,
+      "position": {
+        "x": 205740000,
+        "y": 104140000
+      },
+      "rotation": 0.0,
+      "mirror": false,
+      "designator_offset": null,
+      "value_offset": null
+    },
+    {
+      "id": 17,
+      "sheet": 1,
+      "type": "Symbol",
+      "component": 16,
+      "position": {
+        "x": 177800000,
+        "y": 127000000
+      },
+      "rotation": 90.0,
+      "mirror": false,
+      "designator_offset": null,
+      "value_offset": null
+    },
+    {
+      "id": 19,
+      "sheet": 1,
+      "type": "Symbol",
+      "component": 18,
+      "position": {
+        "x": 66040000,
+        "y": 127000000
+      },
+      "rotation": 0.0,
+      "mirror": false,
+      "designator_offset": null,
+      "value_offset": null
+    },
+    {
+      "id": 20,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 160020000,
+          "y": 116840000
+        },
+        {
+          "x": 160020000,
+          "y": 101600000
+        },
+        {
+          "x": 144780000,
+          "y": 101600000
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 160020000,
+          "y": 96520000
+        },
+        {
+          "x": 160020000,
+          "y": 101600000
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "sheet": 1,
+      "type": "PowerPort",
+      "position": {
+        "x": 160020000,
+        "y": 127000000
+      },
+      "net": "VCC",
+      "style": "Bar",
+      "rotation": 90.0
+    },
+    {
+      "id": 23,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 109220000,
+          "y": 101600000
+        },
+        {
+          "x": 101600000,
+          "y": 101600000
+        },
+        {
+          "x": 101600000,
+          "y": 81280000
+        },
+        {
+          "x": 160020000,
+          "y": 81280000
+        },
+        {
+          "x": 160020000,
+          "y": 86360000
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 109220000,
+          "y": 99060000
+        },
+        {
+          "x": 101600000,
+          "y": 99060000
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 101600000,
+          "y": 76200000
+        },
+        {
+          "x": 101600000,
+          "y": 81280000
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "sheet": 1,
+      "type": "PowerPort",
+      "position": {
+        "x": 101600000,
+        "y": 66040000
+      },
+      "net": "GND",
+      "style": "PowerGround",
+      "rotation": 270.0
+    },
+    {
+      "id": 27,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 109220000,
+          "y": 104140000
+        },
+        {
+          "x": 91440000,
+          "y": 104140000
+        },
+        {
+          "x": 91440000,
+          "y": 101600000
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "sheet": 1,
+      "type": "PowerPort",
+      "position": {
+        "x": 91440000,
+        "y": 91440000
+      },
+      "net": "GND",
+      "style": "PowerGround",
+      "rotation": 270.0
+    },
+    {
+      "id": 29,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 109220000,
+          "y": 106680000
+        },
+        {
+          "x": 104140000,
+          "y": 106680000
+        },
+        {
+          "x": 104140000,
+          "y": 111760000
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "sheet": 1,
+      "type": "PowerPort",
+      "position": {
+        "x": 104140000,
+        "y": 111760000
+      },
+      "net": "VCC",
+      "style": "Bar",
+      "rotation": 90.0
+    },
+    {
+      "id": 31,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 144780000,
+          "y": 106680000
+        },
+        {
+          "x": 149860000,
+          "y": 106680000
+        },
+        {
+          "x": 149860000,
+          "y": 111760000
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "sheet": 1,
+      "type": "PowerPort",
+      "position": {
+        "x": 149860000,
+        "y": 111760000
+      },
+      "net": "VCC",
+      "style": "Bar",
+      "rotation": 90.0
+    },
+    {
+      "id": 33,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 144780000,
+          "y": 99060000
+        },
+        {
+          "x": 149860000,
+          "y": 99060000
+        },
+        {
+          "x": 149860000,
+          "y": 93980000
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "sheet": 1,
+      "type": "PowerPort",
+      "position": {
+        "x": 149860000,
+        "y": 93980000
+      },
+      "net": "GND",
+      "style": "PowerGround",
+      "rotation": 270.0
+    },
+    {
+      "id": 35,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 144780000,
+          "y": 104140000
+        },
+        {
+          "x": 154940000,
+          "y": 104140000
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "sheet": 1,
+      "type": "NetLabel",
+      "position": {
+        "x": 147320000,
+        "y": 104140000
+      },
+      "text": "OUT",
+      "rotation": 0.0
+    },
+    {
+      "id": 37,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 175260000,
+          "y": 104140000
+        },
+        {
+          "x": 182880000,
+          "y": 104140000
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "sheet": 1,
+      "type": "NetLabel",
+      "position": {
+        "x": 176530000,
+        "y": 104140000
+      },
+      "text": "OUT",
+      "rotation": 0.0
+    },
+    {
+      "id": 39,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 193040000,
+          "y": 104140000
+        },
+        {
+          "x": 200660000,
+          "y": 104140000
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 210820000,
+          "y": 104140000
+        },
+        {
+          "x": 215900000,
+          "y": 104140000
+        },
+        {
+          "x": 215900000,
+          "y": 96520000
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "sheet": 1,
+      "type": "PowerPort",
+      "position": {
+        "x": 215900000,
+        "y": 96520000
+      },
+      "net": "GND",
+      "style": "PowerGround",
+      "rotation": 270.0
+    },
+    {
+      "id": 42,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 177800000,
+          "y": 132080000
+        },
+        {
+          "x": 177800000,
+          "y": 137160000
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "sheet": 1,
+      "type": "PowerPort",
+      "position": {
+        "x": 177800000,
+        "y": 137160000
+      },
+      "net": "VCC",
+      "style": "Bar",
+      "rotation": 90.0
+    },
+    {
+      "id": 44,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 177800000,
+          "y": 121920000
+        },
+        {
+          "x": 177800000,
+          "y": 116840000
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "sheet": 1,
+      "type": "PowerPort",
+      "position": {
+        "x": 177800000,
+        "y": 116840000
+      },
+      "net": "GND",
+      "style": "PowerGround",
+      "rotation": 270.0
+    },
+    {
+      "id": 46,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 58420000,
+          "y": 129540000
+        },
+        {
+          "x": 50800000,
+          "y": 129540000
+        },
+        {
+          "x": 50800000,
+          "y": 134620000
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "sheet": 1,
+      "type": "PowerPort",
+      "position": {
+        "x": 50800000,
+        "y": 134620000
+      },
+      "net": "VCC",
+      "style": "Bar",
+      "rotation": 90.0
+    },
+    {
+      "id": 48,
+      "sheet": 1,
+      "type": "Wire",
+      "points": [
+        {
+          "x": 58420000,
+          "y": 127000000
+        },
+        {
+          "x": 53340000,
+          "y": 127000000
+        },
+        {
+          "x": 53340000,
+          "y": 121920000
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "sheet": 1,
+      "type": "PowerPort",
+      "position": {
+        "x": 53340000,
+        "y": 121920000
+      },
+      "net": "GND",
+      "style": "PowerGround",
+      "rotation": 270.0
+    },
+    {
+      "id": 50,
+      "sheet": 1,
+      "type": "Text",
+      "position": {
+        "x": 50800000,
+        "y": 55880000
+      },
+      "text": "f ≈ 1.44 / ((R1 + 2·R2)·C1) ≈ 1.4 Hz",
+      "size": 2032000,
+      "rotation": 0.0
+    }
+  ]
+}

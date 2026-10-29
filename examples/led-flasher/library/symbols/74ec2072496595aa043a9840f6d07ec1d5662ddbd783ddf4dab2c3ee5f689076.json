@@ -1,0 +1,61 @@
+{
+  "format": "hephaestus-symbol",
+  "hash": "sha256:74ec2072496595aa043a9840f6d07ec1d5662ddbd783ddf4dab2c3ee5f689076",
+  "symbol": {
+    "description": "2-pin header",
+    "designator_position": {
+      "x": -2540000,
+      "y": 5842000
+    },
+    "graphics": [
+      {
+        "filled": true,
+        "max": {
+          "x": 2540000,
+          "y": 5080000
+        },
+        "min": {
+          "x": -2540000,
+          "y": -2540000
+        },
+        "type": "Rect",
+        "width": 0
+      }
+    ],
+    "hide_pin_names": false,
+    "name": "Header 2",
+    "pins": [
+      {
+        "direction": "Left",
+        "length": 5080000,
+        "name": "1",
+        "number": "1",
+        "pin_type": "Passive",
+        "position": {
+          "x": -7620000,
+          "y": 2540000
+        },
+        "show_name": false,
+        "show_number": true
+      },
+      {
+        "direction": "Left",
+        "length": 5080000,
+        "name": "2",
+        "number": "2",
+        "pin_type": "Passive",
+        "position": {
+          "x": -7620000,
+          "y": 0
+        },
+        "show_name": false,
+        "show_number": true
+      }
+    ],
+    "value_position": {
+      "x": -2540000,
+      "y": -5842000
+    }
+  },
+  "version": 2
+}

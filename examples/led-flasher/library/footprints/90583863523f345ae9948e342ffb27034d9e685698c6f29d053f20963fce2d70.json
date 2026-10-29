@@ -1,0 +1,117 @@
+{
+  "footprint": {
+    "courtyard": {
+      "max": {
+        "x": 1500000,
+        "y": 725000
+      },
+      "min": {
+        "x": -1500000,
+        "y": -725000
+      }
+    },
+    "description": "Polarized LED-0603",
+    "graphics": [
+      {
+        "layer": "Top Overlay",
+        "shape": {
+          "points": [
+            {
+              "x": 800000,
+              "y": 675000
+            },
+            {
+              "x": -1450000,
+              "y": 675000
+            },
+            {
+              "x": -1450000,
+              "y": -675000
+            },
+            {
+              "x": 800000,
+              "y": -675000
+            }
+          ],
+          "type": "Line",
+          "width": 150000
+        }
+      },
+      {
+        "layer": "Mechanical 13",
+        "shape": {
+          "filled": false,
+          "max": {
+            "x": 800000,
+            "y": 400000
+          },
+          "min": {
+            "x": -800000,
+            "y": -400000
+          },
+          "type": "Rect",
+          "width": 100000
+        }
+      },
+      {
+        "layer": "Mechanical 15",
+        "shape": {
+          "filled": false,
+          "max": {
+            "x": 1500000,
+            "y": 725000
+          },
+          "min": {
+            "x": -1500000,
+            "y": -725000
+          },
+          "type": "Rect",
+          "width": 50000
+        }
+      }
+    ],
+    "model": {
+      "height": 1000000,
+      "source": "generated:box 1.6x0.8x1mm"
+    },
+    "name": "LED-0603",
+    "pads": [
+      {
+        "height": 950000,
+        "kind": {
+          "type": "Smd"
+        },
+        "number": "1",
+        "position": {
+          "x": -800000,
+          "y": 0
+        },
+        "rotation": 0.0,
+        "shape": {
+          "type": "Rect"
+        },
+        "width": 900000
+      },
+      {
+        "height": 950000,
+        "kind": {
+          "type": "Smd"
+        },
+        "number": "2",
+        "position": {
+          "x": 800000,
+          "y": 0
+        },
+        "rotation": 0.0,
+        "shape": {
+          "ratio": 0.25,
+          "type": "RoundRect"
+        },
+        "width": 900000
+      }
+    ]
+  },
+  "format": "hephaestus-footprint",
+  "hash": "sha256:90583863523f345ae9948e342ffb27034d9e685698c6f29d053f20963fce2d70",
+  "version": 2
+}

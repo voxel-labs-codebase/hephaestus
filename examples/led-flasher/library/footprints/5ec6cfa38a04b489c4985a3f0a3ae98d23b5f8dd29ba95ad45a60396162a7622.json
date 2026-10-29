@@ -1,0 +1,245 @@
+{
+  "footprint": {
+    "courtyard": {
+      "max": {
+        "x": 3725000,
+        "y": 2700000
+      },
+      "min": {
+        "x": -3725000,
+        "y": -2700000
+      }
+    },
+    "description": "8-pin small-outline IC, 1.27 mm pitch",
+    "graphics": [
+      {
+        "layer": "Top Overlay",
+        "shape": {
+          "points": [
+            {
+              "x": -1950000,
+              "y": 2550000
+            },
+            {
+              "x": 1950000,
+              "y": 2550000
+            }
+          ],
+          "type": "Line",
+          "width": 150000
+        }
+      },
+      {
+        "layer": "Top Overlay",
+        "shape": {
+          "points": [
+            {
+              "x": -1950000,
+              "y": -2550000
+            },
+            {
+              "x": 1950000,
+              "y": -2550000
+            }
+          ],
+          "type": "Line",
+          "width": 150000
+        }
+      },
+      {
+        "layer": "Top Overlay",
+        "shape": {
+          "points": [
+            {
+              "x": -3475000,
+              "y": 2600000
+            },
+            {
+              "x": -1950000,
+              "y": 2600000
+            }
+          ],
+          "type": "Line",
+          "width": 150000
+        }
+      },
+      {
+        "layer": "Mechanical 13",
+        "shape": {
+          "filled": false,
+          "max": {
+            "x": 1950000,
+            "y": 2450000
+          },
+          "min": {
+            "x": -1950000,
+            "y": -2450000
+          },
+          "type": "Rect",
+          "width": 100000
+        }
+      },
+      {
+        "layer": "Mechanical 15",
+        "shape": {
+          "filled": false,
+          "max": {
+            "x": 3725000,
+            "y": 2700000
+          },
+          "min": {
+            "x": -3725000,
+            "y": -2700000
+          },
+          "type": "Rect",
+          "width": 50000
+        }
+      }
+    ],
+    "model": {
+      "height": 1500000,
+      "source": "generated:box 3.9x4.9x1.5mm"
+    },
+    "name": "SOIC-8",
+    "pads": [
+      {
+        "height": 600000,
+        "kind": {
+          "type": "Smd"
+        },
+        "number": "1",
+        "position": {
+          "x": -2700000,
+          "y": 1905000
+        },
+        "rotation": 0.0,
+        "shape": {
+          "type": "Rect"
+        },
+        "width": 1550000
+      },
+      {
+        "height": 600000,
+        "kind": {
+          "type": "Smd"
+        },
+        "number": "2",
+        "position": {
+          "x": -2700000,
+          "y": 635000
+        },
+        "rotation": 0.0,
+        "shape": {
+          "ratio": 0.25,
+          "type": "RoundRect"
+        },
+        "width": 1550000
+      },
+      {
+        "height": 600000,
+        "kind": {
+          "type": "Smd"
+        },
+        "number": "3",
+        "position": {
+          "x": -2700000,
+          "y": -635000
+        },
+        "rotation": 0.0,
+        "shape": {
+          "ratio": 0.25,
+          "type": "RoundRect"
+        },
+        "width": 1550000
+      },
+      {
+        "height": 600000,
+        "kind": {
+          "type": "Smd"
+        },
+        "number": "4",
+        "position": {
+          "x": -2700000,
+          "y": -1905000
+        },
+        "rotation": 0.0,
+        "shape": {
+          "ratio": 0.25,
+          "type": "RoundRect"
+        },
+        "width": 1550000
+      },
+      {
+        "height": 600000,
+        "kind": {
+          "type": "Smd"
+        },
+        "number": "5",
+        "position": {
+          "x": 2700000,
+          "y": -1905000
+        },
+        "rotation": 0.0,
+        "shape": {
+          "ratio": 0.25,
+          "type": "RoundRect"
+        },
+        "width": 1550000
+      },
+      {
+        "height": 600000,
+        "kind": {
+          "type": "Smd"
+        },
+        "number": "6",
+        "position": {
+          "x": 2700000,
+          "y": -635000
+        },
+        "rotation": 0.0,
+        "shape": {
+          "ratio": 0.25,
+          "type": "RoundRect"
+        },
+        "width": 1550000
+      },
+      {
+        "height": 600000,
+        "kind": {
+          "type": "Smd"
+        },
+        "number": "7",
+        "position": {
+          "x": 2700000,
+          "y": 635000
+        },
+        "rotation": 0.0,
+        "shape": {
+          "ratio": 0.25,
+          "type": "RoundRect"
+        },
+        "width": 1550000
+      },
+      {
+        "height": 600000,
+        "kind": {
+          "type": "Smd"
+        },
+        "number": "8",
+        "position": {
+          "x": 2700000,
+          "y": 1905000
+        },
+        "rotation": 0.0,
+        "shape": {
+          "ratio": 0.25,
+          "type": "RoundRect"
+        },
+        "width": 1550000
+      }
+    ]
+  },
+  "format": "hephaestus-footprint",
+  "hash": "sha256:5ec6cfa38a04b489c4985a3f0a3ae98d23b5f8dd29ba95ad45a60396162a7622",
+  "version": 2
+}

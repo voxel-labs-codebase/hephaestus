@@ -1,0 +1,175 @@
+{
+  "format": "hephaestus-symbol",
+  "hash": "sha256:3063e37259aafa3c3f38147d9061dc95b613db72ee0b77b480aefe3362bd330e",
+  "symbol": {
+    "description": "Light-emitting diode",
+    "designator_position": {
+      "x": -2540000,
+      "y": 2286000
+    },
+    "graphics": [
+      {
+        "points": [
+          {
+            "x": -2540000,
+            "y": 0
+          },
+          {
+            "x": -1016000,
+            "y": 0
+          }
+        ],
+        "type": "Line",
+        "width": 0
+      },
+      {
+        "points": [
+          {
+            "x": 1016000,
+            "y": 0
+          },
+          {
+            "x": 2540000,
+            "y": 0
+          }
+        ],
+        "type": "Line",
+        "width": 0
+      },
+      {
+        "filled": true,
+        "points": [
+          {
+            "x": -1016000,
+            "y": 1270000
+          },
+          {
+            "x": -1016000,
+            "y": -1270000
+          },
+          {
+            "x": 1016000,
+            "y": 0
+          }
+        ],
+        "type": "Polygon",
+        "width": 0
+      },
+      {
+        "points": [
+          {
+            "x": 1016000,
+            "y": -1270000
+          },
+          {
+            "x": 1016000,
+            "y": 1270000
+          }
+        ],
+        "type": "Line",
+        "width": 203200
+      },
+      {
+        "points": [
+          {
+            "x": -127000,
+            "y": 1524000
+          },
+          {
+            "x": 889000,
+            "y": 2540000
+          }
+        ],
+        "type": "Line",
+        "width": 0
+      },
+      {
+        "filled": true,
+        "points": [
+          {
+            "x": 889000,
+            "y": 2540000
+          },
+          {
+            "x": 431800,
+            "y": 2438400
+          },
+          {
+            "x": 787400,
+            "y": 2082800
+          }
+        ],
+        "type": "Polygon",
+        "width": 0
+      },
+      {
+        "points": [
+          {
+            "x": 762000,
+            "y": 1524000
+          },
+          {
+            "x": 1778000,
+            "y": 2540000
+          }
+        ],
+        "type": "Line",
+        "width": 0
+      },
+      {
+        "filled": true,
+        "points": [
+          {
+            "x": 1778000,
+            "y": 2540000
+          },
+          {
+            "x": 1320800,
+            "y": 2438400
+          },
+          {
+            "x": 1676400,
+            "y": 2082800
+          }
+        ],
+        "type": "Polygon",
+        "width": 0
+      }
+    ],
+    "hide_pin_names": true,
+    "name": "LED",
+    "pins": [
+      {
+        "direction": "Left",
+        "length": 2540000,
+        "name": "A",
+        "number": "2",
+        "pin_type": "Passive",
+        "position": {
+          "x": -5080000,
+          "y": 0
+        },
+        "show_name": false,
+        "show_number": false
+      },
+      {
+        "direction": "Right",
+        "length": 2540000,
+        "name": "K",
+        "number": "1",
+        "pin_type": "Passive",
+        "position": {
+          "x": 5080000,
+          "y": 0
+        },
+        "show_name": false,
+        "show_number": false
+      }
+    ],
+    "value_position": {
+      "x": -2540000,
+      "y": -4318000
+    }
+  },
+  "version": 2
+}

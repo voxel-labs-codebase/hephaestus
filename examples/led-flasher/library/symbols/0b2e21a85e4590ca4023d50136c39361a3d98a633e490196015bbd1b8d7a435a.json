@@ -1,0 +1,139 @@
+{
+  "format": "hephaestus-symbol",
+  "hash": "sha256:0b2e21a85e4590ca4023d50136c39361a3d98a633e490196015bbd1b8d7a435a",
+  "symbol": {
+    "description": "Precision timer",
+    "designator_position": {
+      "x": -10160000,
+      "y": 8382000
+    },
+    "graphics": [
+      {
+        "filled": true,
+        "max": {
+          "x": 10160000,
+          "y": 7620000
+        },
+        "min": {
+          "x": -10160000,
+          "y": -5080000
+        },
+        "type": "Rect",
+        "width": 0
+      }
+    ],
+    "hide_pin_names": false,
+    "name": "NE555",
+    "pins": [
+      {
+        "direction": "Left",
+        "length": 7620000,
+        "name": "RESET",
+        "number": "4",
+        "pin_type": "Input",
+        "position": {
+          "x": -17780000,
+          "y": 5080000
+        },
+        "show_name": true,
+        "show_number": true
+      },
+      {
+        "direction": "Left",
+        "length": 7620000,
+        "name": "CONT",
+        "number": "5",
+        "pin_type": "Input",
+        "position": {
+          "x": -17780000,
+          "y": 2540000
+        },
+        "show_name": true,
+        "show_number": true
+      },
+      {
+        "direction": "Left",
+        "length": 7620000,
+        "name": "THRES",
+        "number": "6",
+        "pin_type": "Input",
+        "position": {
+          "x": -17780000,
+          "y": 0
+        },
+        "show_name": true,
+        "show_number": true
+      },
+      {
+        "direction": "Left",
+        "length": 7620000,
+        "name": "TRIG",
+        "number": "2",
+        "pin_type": "Input",
+        "position": {
+          "x": -17780000,
+          "y": -2540000
+        },
+        "show_name": true,
+        "show_number": true
+      },
+      {
+        "direction": "Right",
+        "length": 7620000,
+        "name": "VCC",
+        "number": "8",
+        "pin_type": "Power",
+        "position": {
+          "x": 17780000,
+          "y": 5080000
+        },
+        "show_name": true,
+        "show_number": true
+      },
+      {
+        "direction": "Right",
+        "length": 7620000,
+        "name": "OUT",
+        "number": "3",
+        "pin_type": "Output",
+        "position": {
+          "x": 17780000,
+          "y": 2540000
+        },
+        "show_name": true,
+        "show_number": true
+      },
+      {
+        "direction": "Right",
+        "length": 7620000,
+        "name": "DISCH",
+        "number": "7",
+        "pin_type": "OpenCollector",
+        "position": {
+          "x": 17780000,
+          "y": 0
+        },
+        "show_name": true,
+        "show_number": true
+      },
+      {
+        "direction": "Right",
+        "length": 7620000,
+        "name": "GND",
+        "number": "1",
+        "pin_type": "Power",
+        "position": {
+          "x": 17780000,
+          "y": -2540000
+        },
+        "show_name": true,
+        "show_number": true
+      }
+    ],
+    "value_position": {
+      "x": -10160000,
+      "y": -8382000
+    }
+  },
+  "version": 2
+}

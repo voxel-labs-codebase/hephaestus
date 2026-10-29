@@ -1,0 +1,31 @@
+[package]
+name = "hephaestus-ui"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Hephaestus egui application: shell, docking panels, schematic and PCB editors"
+
+[lints]
+workspace = true
+
+[dependencies]
+hephaestus-core = { workspace = true }
+hephaestus-libraries = { workspace = true }
+hephaestus-connectivity = { workspace = true }
+hephaestus-commands = { workspace = true }
+hephaestus-rules = { workspace = true }
+hephaestus-project = { workspace = true }
+hephaestus-export = { workspace = true }
+hephaestus-agent-api = { workspace = true }
+hephaestus-canvas = { workspace = true }
+egui = { workspace = true }
+eframe = { workspace = true }
+craft-ui = { workspace = true }
+image = { workspace = true }
+rfd = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+log = { workspace = true }
+
+[dev-dependencies]
+egui_kittest = { version = "0.36" }

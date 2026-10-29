@@ -1,0 +1,127 @@
+{
+  "footprint": {
+    "courtyard": {
+      "max": {
+        "x": 1500000,
+        "y": 725000
+      },
+      "min": {
+        "x": -1500000,
+        "y": -725000
+      }
+    },
+    "description": "Chip 0603",
+    "graphics": [
+      {
+        "layer": "Top Overlay",
+        "shape": {
+          "points": [
+            {
+              "x": -200000,
+              "y": 500000
+            },
+            {
+              "x": 200000,
+              "y": 500000
+            }
+          ],
+          "type": "Line",
+          "width": 150000
+        }
+      },
+      {
+        "layer": "Top Overlay",
+        "shape": {
+          "points": [
+            {
+              "x": -200000,
+              "y": -500000
+            },
+            {
+              "x": 200000,
+              "y": -500000
+            }
+          ],
+          "type": "Line",
+          "width": 150000
+        }
+      },
+      {
+        "layer": "Mechanical 13",
+        "shape": {
+          "filled": false,
+          "max": {
+            "x": 800000,
+            "y": 400000
+          },
+          "min": {
+            "x": -800000,
+            "y": -400000
+          },
+          "type": "Rect",
+          "width": 100000
+        }
+      },
+      {
+        "layer": "Mechanical 15",
+        "shape": {
+          "filled": false,
+          "max": {
+            "x": 1500000,
+            "y": 725000
+          },
+          "min": {
+            "x": -1500000,
+            "y": -725000
+          },
+          "type": "Rect",
+          "width": 50000
+        }
+      }
+    ],
+    "model": {
+      "height": 800000,
+      "source": "generated:box 1.6x0.8x0.8mm"
+    },
+    "name": "0603",
+    "pads": [
+      {
+        "height": 950000,
+        "kind": {
+          "type": "Smd"
+        },
+        "number": "1",
+        "position": {
+          "x": -800000,
+          "y": 0
+        },
+        "rotation": 0.0,
+        "shape": {
+          "ratio": 0.25,
+          "type": "RoundRect"
+        },
+        "width": 900000
+      },
+      {
+        "height": 950000,
+        "kind": {
+          "type": "Smd"
+        },
+        "number": "2",
+        "position": {
+          "x": 800000,
+          "y": 0
+        },
+        "rotation": 0.0,
+        "shape": {
+          "ratio": 0.25,
+          "type": "RoundRect"
+        },
+        "width": 900000
+      }
+    ]
+  },
+  "format": "hephaestus-footprint",
+  "hash": "sha256:2fce197965765962db4a62d800a0e032fcd3dd10af866d52c2d8d4a2aa295f11",
+  "version": 2
+}

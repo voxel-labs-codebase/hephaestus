@@ -1,0 +1,13 @@
+[package]
+name = "hephaestus-libraries"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Hephaestus built-in component library (symbols, footprints and parts generated in code) and library file I/O"
+
+[lints]
+workspace = true
+
+[dependencies]
+hephaestus-core = { workspace = true }
+serde_json = { workspace = true }

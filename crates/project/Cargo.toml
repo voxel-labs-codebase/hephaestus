@@ -1,0 +1,19 @@
+[package]
+name = "hephaestus-project"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Hephaestus project persistence: versioned multi-file JSON format, incremental atomic saves, migration, autosave and recovery"
+
+[lints]
+workspace = true
+
+[dependencies]
+hephaestus-core = { workspace = true }
+hephaestus-libraries = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+hephaestus-commands = { workspace = true }

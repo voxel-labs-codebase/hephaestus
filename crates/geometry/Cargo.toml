@@ -1,0 +1,12 @@
+[package]
+name = "hephaestus-geometry"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Hephaestus geometry: integer nanometre coordinates, units, transforms, shape distance and spatial indexing"
+
+[lints]
+workspace = true
+
+[dependencies]
+serde = { workspace = true }

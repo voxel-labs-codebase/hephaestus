@@ -1,0 +1,29 @@
+{
+  "alt_footprints": [
+    "sha256:8ccb9e0cb92d36282223a843209b9e77f756d0032e205b718d3a001e670363c6"
+  ],
+  "category": "ICs/Timers",
+  "default_value": "NE555",
+  "description": "Precision timer",
+  "designator_prefix": "U",
+  "footprint": "sha256:5ec6cfa38a04b489c4985a3f0a3ae98d23b5f8dd29ba95ad45a60396162a7622",
+  "format": "hephaestus-component",
+  "hash": "sha256:63fb53360c4f362d0c074e1c7b0ba4ed9b802c1406079276cf4e22567e14ed90",
+  "kind": "specific",
+  "manufacturer": "Texas Instruments",
+  "mpn": "NE555DR",
+  "name": "NE555",
+  "origin": {
+    "hash": "sha256:364a7bcd89f1cca37f6fb5883dc997cc4d56e91467c38cc1dc719a3c978e5c3c",
+    "item": "NE555",
+    "source": "Hephaestus Basic",
+    "version": "2"
+  },
+  "parameters": {
+    "Datasheet": "https://www.ti.com/lit/ds/symlink/ne555.pdf"
+  },
+  "pin_map": {},
+  "revision": 1,
+  "symbol": "sha256:0b2e21a85e4590ca4023d50136c39361a3d98a633e490196015bbd1b8d7a435a",
+  "version": 2
+}

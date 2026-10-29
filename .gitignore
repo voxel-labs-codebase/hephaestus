@@ -1,0 +1,6 @@
+/target
+*~
+.autosave/
+/screenshots/*.png
+__pycache__/
+*.bak
